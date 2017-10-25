@@ -395,7 +395,6 @@ class NN:
             optimizer = tf.train.GradientDescentOptimizer(learning_rate)
             return optimizer.minimize(loss, global_step=global_step)
 
-
     # ************************* 防止 overfitting 的 trick *************************
 
     ''' 正则化，默认采用 l2_loss 正则化 '''
