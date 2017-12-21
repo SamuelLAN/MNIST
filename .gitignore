@@ -1,3 +1,7 @@
 .idea/*
 .DS_Store
 .pyc
+MNIST_data
+.idea/
+model
+summary

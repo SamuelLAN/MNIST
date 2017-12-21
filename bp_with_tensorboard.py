@@ -73,6 +73,8 @@ class BP(base.NN):
 
     ''' 加载数据 '''
     def load(self):
+        self.echo('\nLoading data ... ')
+
         mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
         self.__trainSet = mnist.train
         self.__valSet = mnist.validation
@@ -81,6 +83,8 @@ class BP(base.NN):
         self.__trainSize = self.__trainSet.images.shape[0]
         self.__valSize = self.__valSet.images.shape[0]
         self.__testSize = self.__testSet.images.shape[0]
+
+        self.echo('Finish loading ')
 
 
     ''' 模型 '''
