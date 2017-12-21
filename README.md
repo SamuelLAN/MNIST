@@ -13,12 +13,12 @@
 <br>
 
 > 准确率
-- bp_with_tensorboard.py:
+>- bp_with_tensorboard.py:
 >>- training set accuracy: 0.981909%
 >>- validation set accuracy: 0.977000%
 >>- test set accuracy: 0.973800%
 >
-- cnn_simply.py:
+>- cnn_simply.py:
 >>- training set accuracy: 0.998100%
 >>- validation set accuracy: 0.994200%
 >>- test set accuracy: 0.993500%
